@@ -4,7 +4,7 @@
 #=====================================================
 
 #variabel menyimpan data file
-nama_file = r"C:\Users\syahi\OneDrive\Documents\PYTHON\sem 2\algostruk\pertemuan 2\data_mahasiswa.txt"
+nama_file = r"C:\Users\syahi\OneDrive\Documents\PYTHON\algostruk\pertemuan 2\data_mahasiswa.txt"
 
 
 def baca_data(nama_file):
@@ -144,3 +144,6 @@ def main():
         elif pilihan == "0":
             print("program selesai.")
             break
+    
+    if __name__ == "__main__": 
+        main()
