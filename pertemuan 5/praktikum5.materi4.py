@@ -1,7 +1,7 @@
 # ==========================================================
-# Praktikum 5 - Materi 2
+# Praktikum 5 - Materi 4
 # Syahirah Yusriyah Putri - J0403251003
-# Rekursi 2: Tracing Masuk/Keluar
+# Backtracking 1: KOmbinasi biner (n)
 # ==========================================================
 
 def biner(n, hasil=""):

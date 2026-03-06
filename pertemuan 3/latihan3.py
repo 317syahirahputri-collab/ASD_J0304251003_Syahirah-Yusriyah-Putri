@@ -24,11 +24,20 @@ class Doublylinkedlist:
             new_node.prev = self.tail
             self.tail = new_node  
 
-    def display(self): 
-        temp = self.head 
-        while temp: 
-            print(temp.data, end=" -> ") 
-            temp = temp.next 
+    def display_forward(self):
+        print("\nTraversing forward:")
+        temp = self.head
+        while temp:
+            print(temp.data, end=" -> ")
+            temp = temp.next
+        print("null")
+ 
+    def display_backward(self):
+        print("\nTraversing backward:")
+        temp = self.tail
+        while temp:
+            print(temp.data, end=" -> ")
+            temp = temp.prev
         print("null")
 
     def search(self, key):

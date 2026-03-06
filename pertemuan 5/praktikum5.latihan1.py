@@ -23,15 +23,17 @@ print(pangkat(2, 4))  # Output: 16
 print(pangkat(3, 0))  # Output: 243
 
 
-# =======================
-# PENJELASAN / DISKUSI
-# =======================
-# Alur pangkat(2,4):
-# 2 * pangkat(2,3)
-# 2 * 2 * pangkat(2,2)
-# 2 * 2 * 2 * pangkat(2,1)
-# 2 * 2 * 2 * 2 * pangkat(2,0)
-# 2 * 2 * 2 * 2 * 1  ← base case
+# =========================
+# PENJELASAN DISKUSI
+# =========================
+# Contoh alur pangkat(2,4):
+# pangkat(2,4)
+# = 2 * pangkat(2,3)
+# = 2 * 2 * pangkat(2,2)
+# = 2 * 2 * 2 * pangkat(2,1)
+# = 2 * 2 * 2 * 2 * pangkat(2,0)
+# = 2 * 2 * 2 * 2 * 1  (Base case)
+# = 16
 #
-# Base case menghentikan rekursi saat n == 0.
-# Recursive case mengurangi nilai n sampai 0.
+# Base case menghentikan rekursi.
+# Recursive case memperkecil masalah hingga mencapai base case.
