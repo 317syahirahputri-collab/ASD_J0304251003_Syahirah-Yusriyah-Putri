@@ -1,11 +1,21 @@
-data = [43,76,12,89,33,57,98,22,68,9]
+# ==========================================================
+# Praktikum 6
+# Syahirah Yusriyah Putri - J0403251003
+# Soal Pak Budi - Menentukan kandidat
+# ==========================================================
 
+# Data nilai tes potensi akademik pelamar
+
+data = [43, 76, 12, 89, 33, 57, 98, 22, 68, 9]
+
+# Mengurutkan data dari nilai tertinggi ke terendah
 data.sort(reverse=True)
 
-print("Nilai setelah diurutkan (Descending):")
+print("Nilai setelah diurutkan (descending):")
 print(data)
 
-print("\n5 kandidat dengan nilai tertinggi:")
+# Mengambil 5 nilai tertinggi
+top5 = data[:5]
 
-for i in range(5):
-    print(data[i])
+print("5 kandidat dengan nilai tertinggi:")
+print(top5)
