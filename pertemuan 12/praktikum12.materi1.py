@@ -1,7 +1,7 @@
 # ==========================================================
-# Nama  : Isi Nama Anda
-# NIM   : Isi NIM Anda
-# Kelas : Isi Kelas Anda
+# Nama  : Syahirah Yusriyah Putri
+# NIM   : J0403251003
+# Kelas : TPLA1
 # Praktikum 12 - Graph II: Shortest Path
 # File  : praktikum12.materi1.py
 # ==========================================================
